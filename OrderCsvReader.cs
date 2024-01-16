@@ -1,11 +1,11 @@
 ﻿namespace ExportHtml_Mik
 {
-    public class OrderParser
+    public class OrderCsvReader
     {
-        public OrderLineParser lineParser;
-        public OrderParser()
+        private OrderLineParser LineParser;
+        public OrderCsvReader()
         {
-            lineParser = new();
+            LineParser = new();
         }
 
         public List<Order> ParseCSV(string path)
@@ -20,7 +20,7 @@
                     while (!sr.EndOfStream)
                     {
                         i++;
-                        result.Add(lineParser.ParseLine(sr.ReadLine(), i));
+                        result.Add(LineParser.ParseLine(sr.ReadLine(), i));
                     }
                     return result;
                 }

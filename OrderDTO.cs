@@ -1,12 +1,12 @@
 ﻿namespace ExportHtml_Mik
 {
-    public class OrderDTO
+    public class OrderDto
     {
         public string GameTitle { get; set; }
         public int CopiesBought { get; set; }
         public string MostBoughtPlatform { get; set; }
         public DateTime LastPurchaseDate { get; set; }
-        public OrderDTO(string gameTitle, int copiesBought, string mostBoughtPlatform, DateTime lastPurchaseDate) 
+        public OrderDto(string gameTitle, int copiesBought, string mostBoughtPlatform, DateTime lastPurchaseDate) 
         {
             GameTitle = gameTitle;
             CopiesBought = copiesBought;

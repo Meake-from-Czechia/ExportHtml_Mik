@@ -1,0 +1,51 @@
+UserEmail,GameTitle,Platform,OrderDate,OrderLocation
+john.doe@email.com,Call of Duty: Modern Warfare,PlayStation 4,2023-01-15,Online
+jane.smith@email.com,Assassin's Creed Valhalla,Xbox Series X,2023-02-03,Store
+bob.jones@email.com,The Witcher 3: Wild Hunt,PC,2023-02-10,Online
+sara.williams@email.com,Red Dead Redemption 2,PlayStation 5,2023-02-22,Store
+mark.johnson@email.com,FIFA 22,Xbox One,2023-03-05,Online
+emily.white@email.com,Spider-Man: Miles Morales,PlayStation 5,2023-03-12,Store
+david.wilson@email.com,Star Wars Jedi: Fallen Order,PC,2023-03-25,Online
+olivia.brown@email.com,Assassin's Creed Odyssey,PlayStation 4,2023-04-02,Store
+adam.smith@email.com,Grand Theft Auto V,Xbox Series X,2023-04-15,Online
+grace.miller@email.com,Cyberpunk 2077,PC,2023-04-22,Store
+john.doe@email.com,The Witcher 3: Wild Hunt,Xbox One,2023-05-01,Online
+jane.smith@email.com,Red Dead Redemption 2,PlayStation 5,2023-05-10,Store
+bob.jones@email.com,FIFA 22,PC,2023-05-20,Online
+sara.williams@email.com,Spider-Man: Miles Morales,PlayStation 5,2023-06-02,Store
+mark.johnson@email.com,Assassin's Creed Odyssey,Xbox One,2023-06-15,Online
+emily.white@email.com,Grand Theft Auto V,PC,2023-06-28,Store
+david.wilson@email.com,Cyberpunk 2077,Xbox Series X,2023-07-05,Online
+olivia.brown@email.com,The Witcher 3: Wild Hunt,PlayStation 4,2023-07-18,Store
+adam.smith@email.com,Call of Duty: Modern Warfare,Xbox Series X,2023-07-25,Online
+grace.miller@email.com,Red Dead Redemption 2,PlayStation 5,2023-08-05,Store
+john.doe@email.com,FIFA 22,PC,2023-08-15,Online
+jane.smith@email.com,Spider-Man: Miles Morales,Xbox One,2023-08-28,Store
+bob.jones@email.com,Assassin's Creed Odyssey,PlayStation 4,2023-09-02,Online
+sara.williams@email.com,Grand Theft Auto V,Xbox Series X,2023-09-15,Store
+mark.johnson@email.com,Cyberpunk 2077,PC,2023-09-25,Online
+emily.white@email.com,The Witcher 3: Wild Hunt,PlayStation 5,2023-10-08,Store
+david.wilson@email.com,Call of Duty: Modern Warfare,Xbox One,2023-10-15,Online
+olivia.brown@email.com,Red Dead Redemption 2,PC,2023-10-28,Store
+adam.smith@email.com,FIFA 22,Xbox Series X,2023-11-05,Online
+grace.miller@email.com,Assassin's Creed Odyssey,PlayStation 4,2023-11-18,Store
+john.doe@email.com,Spider-Man: Miles Morales,PlayStation 5,2023-12-02,Online
+jane.smith@email.com,Star Wars Jedi: Fallen Order,Xbox One,2023-12-15,Store
+bob.jones@email.com,FIFA 22,PC,2024-01-05,Online
+sara.williams@email.com,Call of Duty: Modern Warfare,PlayStation 4,2024-01-18,Store
+mark.johnson@email.com,Assassin's Creed Valhalla,Xbox Series X,2024-02-01,Online
+emily.white@email.com,Red Dead Redemption 2,PC,2024-02-15,Store
+david.wilson@email.com,The Witcher 3: Wild Hunt,Xbox One,2024-03-02,Online
+olivia.brown@email.com,Cyberpunk 2077,PlayStation 5,2024-03-15,Store
+adam.smith@email.com,Grand Theft Auto V,PC,2024-04-01,Online
+grace.miller@email.com,Assassin's Creed Odyssey,Xbox Series X,2024-04-15,Store
+john.doe@email.com,FIFA 22,PlayStation 4,2024-05-01,Online
+jane.smith@email.com,Spider-Man: Miles Morales,Xbox One,2024-05-15,Store
+bob.jones@email.com,Red Dead Redemption 2,PC,2024-06-01,Online
+sara.williams@email.com,Star Wars Jedi: Fallen Order,PlayStation 5,2024-06-15,Store
+mark.johnson@email.com,Assassin's Creed Valhalla,Xbox Series X,2024-07-01,Online
+emily.white@email.com,The Witcher 3: Wild Hunt,PC,2024-07-15,Store
+david.wilson@email.com,Call of Duty: Modern Warfare,Xbox One,2024-08-01,Online
+olivia.brown@email.com,FIFA 22,PlayStation 4,2024-08-15,Store
+adam.smith@email.com,Spider-Man: Miles Morales,Xbox Series X,2024-09-01,Online
+grace.miller@email.com,Assassin's Creed Odyssey,PlayStation 5,2024-09-15,Store

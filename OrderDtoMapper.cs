@@ -1,21 +1,21 @@
 ﻿#pragma warning disable CS8600
 namespace ExportHtml_Mik
 {
-    public class OrderToDtoCreator
+    public class OrderDtoMapper
     {
         public List<Order> Orders;
-        public OrderToDtoCreator()
+        public OrderDtoMapper()
         {
             Orders = new List<Order>();
         }
-        public OrderToDtoCreator(List<Order> orders)
+        public OrderDtoMapper(List<Order> orders)
         {
             Orders = orders;
         }
         public List<OrderDto> GetDtoList()
         {
-            List<string> gameTitles = Orders.DistinctBy(x => x.GameTitle)
-                .Select(x => x.GameTitle)
+            List<string> gameTitles = Orders.Select(x => x.GameTitle)
+                .Distinct()
                 .ToList();
             List<OrderDto> result = new();
             foreach (string title in gameTitles)
@@ -26,7 +26,7 @@ namespace ExportHtml_Mik
                     .OrderByDescending(g => g.Count())
                     .Select(g => g.Key)
                     .FirstOrDefault();
-                DateTime lastPurchaseDate = filteredOrders.MaxBy(x => x.OrderDate).OrderDate;
+                DateTime lastPurchaseDate = filteredOrders.Max(x => x.OrderDate);
                 result.Add(new(title, copiesBought, mostBoughtPlatform, lastPurchaseDate));
             }
             return result;

@@ -18,7 +18,7 @@ namespace ExportHtml_Mik
             OrderCsvReader orderParser = new OrderCsvReader();
             List<Order> orders = orderParser.ParseCSV(csvPath);
 
-            OrderToDtoCreator dtoCreator = new OrderToDtoCreator(orders.Where(order => order.OrderDate >= range.From && order.OrderDate <= range.To).ToList()) ;
+            OrderDtoMapper dtoCreator = new OrderDtoMapper(orders.Where(order => order.OrderDate >= range.From && order.OrderDate <= range.To).ToList()) ;
             List<OrderDto> orderDtos = dtoCreator.GetDtoList();
 
             DtoToHtmlSerializer serializer = new(orderDtos, templatePath, exportPath, range.From, range.To);
